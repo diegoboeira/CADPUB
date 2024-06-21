@@ -1,0 +1,56 @@
+<html lang="pt-br">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<head>
+<title> CADPUB - Login </title>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" />
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="main">
+    
+    <div class="container">
+      <center>
+      <div class="middle">
+        <div id="login">
+         <form method="POST" action="login.php">
+
+
+          <fieldset class="clearfix">
+
+            <p><span class="fa fa-user"></span><input type="text" name="login" id="login" Placeholder="Usuário" required></p> <!-- JS because of IE support; better: placeholder="Username" -->
+            <p><span class="fa fa-lock"></span><input type="password" name="senha" id="senha" Placeholder="Senha" required></p> <!-- JS because of IE support; better: placeholder="Password" -->
+            
+             <div><script>
+              function MyFunction()
+              {
+              alert("Função desabilitada, por favor contate o suporte!");
+              }
+              </script>
+                                <span style="width:48%; text-align:left;  display: inline-block;"><a class="small-text" href="#" onclick="MyFunction();">Cadastre-se</a></span>
+                                <span style="width:50%; text-align:right;  display: inline-block;"><input type="submit" value="entrar" id="entrar" name="entrar"></span>
+                            </div>
+
+          </fieldset>
+<div class="clearfix"></div>
+        </form>
+
+        <div class="clearfix"></div>
+
+      </div> <!-- end login -->
+      <div class="logo"><img src="img/logo.png" alt="Brasão" width="70%">
+          
+          <div class="clearfix"></div>
+      </div>
+      
+      </div>
+</center>
+    </div>
+
+</div>
+
+<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+
+</body>
+</html>
